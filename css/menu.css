@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08.04.2018, 11:33:06
+    Author     : RB_Development
+*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+    li
+    {
+        display:inline-block;
+        margin-left:15px;
+        margin-bottom:150px; 
+        
+    }
+
+      a:link
+        {
+            text-decoration:underline;
+            color:blue;
+            fonz-size:x-large;
+        }
+         a:visited
+        {
+            color:blueviolet;
+        }
+        a:hover
+        {
+            font-size:x-large;
+        }
+        a:active
+        {
+            color:darkblue;
+        }     
+      
