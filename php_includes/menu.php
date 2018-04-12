@@ -12,11 +12,13 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div id="menu">
         <ul>
             <li><a href="index.php"><i>Home</i></a></li>
-            <li class =menu><a href="Tools.php"><i>Tools</i></a></li>
-            <li class ="menu"><a href="Tutorials.php"><i>Tutorials</i></a></li>
-            <li class ="menu"><a href="Kontakt.php"><i>Kontakt</i></a></li>
+            <li><a href="Tools.php"><i>Tools</i></a></li>
+            <li><a href="Tutorials.php"><i>Tutorials</i></a></li>
+            <li><a href="Kontakt.php"><i>Kontakt</i></a></li>
         </ul>
+        </div>
     </body>
 </html>

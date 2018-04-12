@@ -13,7 +13,7 @@ and open the template in the editor.
 }
 
 
-    li
+    div.menu
     {
         display:inline-block;
         margin-left:15px;
