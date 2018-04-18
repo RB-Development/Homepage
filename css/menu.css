@@ -7,13 +7,12 @@ and open the template in the editor.
     Created on : 08.04.2018, 11:33:06
     Author     : RB_Development
 */
-*{
-    margin:0;
-    padding:0;
+
+body{
+    background:url(pics/RB-Development_Logo.png);
+    overflow:hidden;
 }
-
-
-    div.menu
+    li
     {
         display:inline-block;
         margin-left:15px;
