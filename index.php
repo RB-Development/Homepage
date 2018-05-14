@@ -23,7 +23,7 @@ if (!isset($_GET['incl']))
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <header>
+        <header <?php if ($incl=="home"){echo 'class="m_home"';}else {echo 'class="m_unter"';}?>>
             <div id="logo">
                 <img src="pics/RB-Development_Logo.png">
             </div>
@@ -35,8 +35,10 @@ if (!isset($_GET['incl']))
                 <li><a href="index.php?incl=Kontakt"<?php if ($incl=="Kontakt"){echo 'class="act"';}?>><i>Kontakt</i></a></li>
             </ul>
         </header>
+        <article>
         <?php
             include ('php_includes/'.$incl.'.php');
         ?>
+        </article>
     </body>
 </html>
